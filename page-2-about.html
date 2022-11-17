@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
   <link rel="stylesheet" type="text/css" href="./assets/stylesheets/styles.css" />
+  <link rel="stylesheet" type="text/css" href="./assets/stylesheets/table-sortable-01.css" />
   <title>ABOUT</title>
 </head>
 <section class="page-2-about">
@@ -30,7 +31,7 @@
           <a href="page-5-blog.html">BLOG</a>
         </li>
         <li>
-          <a href="page-6-specifc-project.html">page 6</a>
+          <a href="page-6-videos.html">VIDEOS</a>
         </li>
       </ul>
       <div class="dropdown">
@@ -40,7 +41,7 @@
           <a href="page-3-projects.html">ABOUT</a>
           <a href="page-4-contact.html">PROJECTS</a>
           <a href="page-5-blog.html">CONTACT</a>
-          <a href="page-6-specifc-project.html">page 6</a>
+          <a href="page-6-videos.html">VIDEOS</a>
         </div>
       </div>
     </nav>
@@ -53,7 +54,7 @@
         <img class="size01 float-left" src="./assets/images/about-photo.png"
           alt="photo of Elita" />
           Nice to meet you!
-          <br>
+          
           I am Elita Nelson, an aspiring UI/UX Designer, 
           a runner, a big fan of plants, 
           an artist, and cat mom to the cause of all 
@@ -86,93 +87,103 @@
     </div>
   </article>
   <section style="width: 55%; float: left; padding: 40px">
-    
-    <body>
-        <table id="latest-reads">
-        <table class="table" style="border-collapse: collapse;">            
-                <tr>
-                    <th style="border: 2px solid orangered;">Title</th>
-                    <th style="border: 2px solid orangered;">Author</th>
-                    <th style="border: 2px solid orangered;">Genre</th>
-                    <th style="border: 2px solid orangered;">Rating</th>
-                </tr>
-    
-                <tr>
-                    <td class="tr">The Guest List</td>
-                    <td class="tr">Lucy Foley</td>
-                    <td class="tr">Thriller</td>
-                    <td class="tr">4.7/5</td>
-                </tr>
-    
-                <tr>
-                    <td class="tr">The Last Thing He Told Me</td>
-                    <td class="tr">Laura Dave</td>
-                    <td class="tr">Thriller</td>
-                    <td class="tr">4.8/5</td>
-                </tr>
-    
-                <tr>
-                    <td class="tr">Where the Crawdads Sing</td>
-                    <td class="tr">Delia Owens</td>        
-                    <td class="tr">Bildungsroman</td>
-                    <td class="tr">3.5/5</td>
-                </tr>
-    
-                <tr>
-                    <td class="tr">The Hunting Party</td>
-                    <td class="tr">Lucy Foley</td>        
-                    <td class="tr">Thriller</td>
-                    <td class="tr">4.5/5</td>
-                </tr>
-    
-                <tr>
-                    <td class="tr">Crime and Punishment</td>
-                    <td class="tr">Fyodor Dostoevsky</td>
-                    <td class="tr">Realistic/Suspense</td>
-                    <td class="tr">5.0/5</td>
-                </tr>
+    <article>
+      <div>
+          <h1 style="font-family: Futura; font-size: 2em">Latest Reads</h1>
+          
+          <table id="latest-reads-items">
+              <thead>
+                  <tr>
+                      <th style="border: 2px solid orangered;">Title</th>
+                      <th style="border: 2px solid orangered;">Author</th>
+                      <th style="border: 2px solid orangered;">Genre</th>
+                      <th style="border: 2px solid orangered;">Rating</th>
+                  </tr>
+              </thead>
+              <tbody>
+                  <tr>
+                      <td class="tr">The Guest List</td>
+                      <td class="tr">Lucy Foley</td>
+                      <td class="tr">Thriller</td>
+                      <td class="tr">4.7/5</td>
+                  </tr>
+                  <tr>
+                      <td class="tr">The Last Thing He Told Me</td>
+                      <td class="tr">Laura Dave</td>
+                      <td class="tr">Thriller</td>
+                      <td class="tr">4.8/5</td>
+                  </tr>
+                  <tr>
+                      <td class="tr">Where the Crawdads Sing</td>
+                      <td class="tr">Delia Owens</td>        
+                      <td class="tr">Bildungsroman</td>
+                      <td class="tr">3.5/5</td>
+                  </tr>
+                  <tr>
+                      <td class="tr">The Hunting Party</td>
+                      <td class="tr">Lucy Foley</td>        
+                      <td class="tr">Thriller</td>
+                      <td class="tr">4.5/5</td>
+                  </tr>
+                  <tr>
+                      <td class="tr">Crime and Punishment</td>
+                      <td class="tr">Fyodor Dostoevsky</td>
+                      <td class="tr">Realistic/Suspense</td>
+                      <td class="tr">5.0/5</td>
+                  </tr>
+                  <tr>
+                      <td class="tr">The Younger Wife</td>
+                      <td class="tr">Sally Hepworth</td>
+                      <td class="tr">Domestic Thriller</td>
+                      <td class="tr">4.8/5</td>
+                  </tr>
+                  <tr>
+                      <td class="tr">The Woman in the Window</td>
+                      <td class="tr">A.J. Finn</td>
+                      <td class="tr">Thriller</td>
+                      <td class="tr">4.8/5</td>
+                  </tr>
+                  <tr>
+                      <td class="tr">Truly, Madly, Guilty</td>
+                      <td class="tr">Liane Moriarty</td>
+                      <td class="tr">Thriller</td>
+                      <td class="tr">3.2/5</td>
+                  </tr>
+                  <tr>
+                      <td class="tr">The Seven Husbands of Evelyn Hugo</td>
+                      <td class="tr">Taylor Jenkins Reid</td>
+                      <td class="tr">Historical Fiction</td>
+                      <td class="tr">4.5/5</td>
+                  </tr>
+                  <tr>
+                      <td class="tr">Candide</td>
+                      <td class="tr">Voltaire</td>
+                      <td class="tr">Satire</td>
+                      <td class="tr">5.0/5</td>
+                    </tr>
+              </tbody>
+          </table>
 
-                <tr>
-                    <td class="tr">The Younger Wife</td>
-                    <td class="tr">Sally Hepworth</td>
-                    <td class="tr">Domestic Thriller</td>
-                    <td class="tr">4.8/5</td>
-                </tr>
+      </div>
 
-              <tr>
-                  <td class="tr">The Woman in the Window</td>
-                  <td class="tr">A.J. Finn</td>
-                  <td class="tr">Thriller</td>
-                  <td class="tr">4.8/5</td>
-                </tr>
-
-              <tr>
-                  <td class="tr">Truly, Madly, Guilty</td>
-                  <td class="tr">Liane Moriarty</td>
-                  <td class="tr">Thriller</td>
-                  <td class="tr">3.2/5</td>
-              </tr>
-
-              <tr>
-                  <td class="tr">The Seven Husbands of Evelyn Hugo</td>
-                  <td class="tr">Taylor Jenkins Reid</td>
-                  <td class="tr">Historical Fiction</td>
-                  <td class="tr">4.5/5</td>
-              </tr>
-
-              <tr>
-                <td class="tr">Candide</td>
-                <td class="tr">Voltaire</td>
-                <td class="tr">Satire</td>
-                <td class="tr">5.0/5</td>
-              </tr>
-              
-        </table>
-        </table>
-        
-    </body>
-    </html>
+  </article>
+  <!-- jquery.min.js should be loaded before jquery.tablesorter.min.js because tablesorter requires basice jquery -->
+<script type="text/JavaScript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script type="text/JavaScript"
+src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.31.3/js/jquery.tablesorter.min.js"></script>
+<!-- BEG JavaScript -->
+<script>
+$(document).ready(function () {
+  $("table#latest-reads-items").tablesorter({
+    sortList: [[1, 0]],
+    CssAsc: "tablesorter-headerAsc",
+    CssDesc: "tablesorter-headerDesc"
+  });
+});
+</script>
+<!-- END JavaScript -->
   </section>
+  
   
 </body>
 

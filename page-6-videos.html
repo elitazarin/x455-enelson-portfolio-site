@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" type="text/css" href="./assets/stylesheets/styles.css" />
+  <title>Page 6</title>
+</head>
+
+<body>
+  <header class="page-6">
+    <a class="logo" href="index.html"><span>Food & Cooking</span></a>
+    <nav>
+      <ul>
+        <li>
+          <a href="index.html">HOME</a>
+        </li>
+        <li>
+          <a href="page-2-about.html">ABOUT</a>
+        </li>
+        <li>
+          <a href="page-3-projects.html">PROJECTS</a>
+        </li>
+        <li>
+          <a href="page-4-contact.html">CONTACT</a>
+        </li>
+        <li>
+          <a href="page-5-blog.html">BLOG</a>
+        </li>
+        <li class="active-page">
+          <a href="page-6-videos.html">VIDEOS</a>
+        </li>
+      </ul>
+      <div class="dropdown">
+        <button class="dropbtn">Menu</button>
+        <div class="dropdown-content">
+          <a href="page-2-about.html">ABOUT</a>
+          <a href="page-3-projects.html">PROJECTS</a>
+          <a href="page-4-contact.html">CONTACT</a>
+          <a href="page-5-blog.html">BLOG</a>
+          <a class="active-menu-item" href="page-6-videos.html">VIDEOS</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <body>
+    <article class="column-l">
+      <div>
+        <h1 class="titles" id="paper">RX MGMT Paper Prototyping</h1>
+        
+        <p class="panel">
+          Before creating a digital prototype, 
+                  I created a low fidelity paper prototype 
+                  to try to find usability and design issues. 
+                  Keeping everything black and white and fairly 
+                  rudimentary allowed users to feel more 
+                  comfortable giving honest feedback that 
+                  could result in a redesign. Please excuse
+                  the slight difficulties with moving the screens
+                  through my handmade cardboard iPhone.
+        </p>
+        <div class="accordion" style="text-align: right;">More</div>
+      </div>
+      <iframe width="500" height="345" src="https://www.youtube.com/embed/PfWG8zQ6y7o">
+      </iframe>
+  
+  
+      <div>
+        <h1 class="titles" id="digital">RxMGMT Digital Prototype Walkthrough</h1>
+        
+        <p class="panel">
+          After testing out my paper prototype, it was time to move it into the digital realm.
+          There weren't any major usability issues uncovered via the paper prototyping session, 
+          so it was primarily a matter of building out and refining my wireframes to get them
+          ready for additional testing.
+  
+        </p>
+        <div class="accordion" style="text-align: right;">More</div>
+      </div>
+      <iframe width="500" height="345" src="https://www.youtube.com/embed/EjOSkjtncaM">
+      </iframe>
+  
+      
+      <div>
+        <h1 class="titles" id="study">RxMGMT Case Study Presentation</h1>
+      
+        <p class="panel">
+          After conducting user testing and gathering my findings, it 
+          was time to synthesize what I'd created and learned. I learned
+          a lot over the course of this project. I started it because I saw
+          how difficult it was for a friend of mine to get vital seizure
+          medications, and I'm happy to say they were pretty pleased with
+          the result. Of course, there is plenty of room for improvement.
+          I did a mockup of one page incorporating the feedback and 
+          a much more aesthetically pleasing color scheme you'll see at 
+          the end of the video.
+        </p>
+        <div class="accordion" style="text-align: right;">More</div>
+      </div>
+      <iframe width="500" height="345" src="https://www.youtube.com/embed/AtLu89o1P7E">
+      </iframe>
+  
+    </article>
+    <section class="column-r">
+      <ul>
+        <li class="videos"><a href= "#paper">Paper Prototype</a></li> 
+        <li class="videos"><a href= "#digital">Digital Prototype</a></li>
+        <li class="videos"><a href= "#study">Case Study</a></li>
+      </ul> 
+    </section>
+  </body>
+  <!-- BEG JavaScript -->
+  <script>
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+    for (i = 0; i < acc.length; i++) {
+      acc[i].addEventListener("click", function () {
+        this.classList.toggle("active");
+        var panel = this.previousElementSibling;
+        if (panel.style.display === "block") {
+          panel.style.display = "none";
+          this.innerHTML = "More";
+        } else {
+          panel.style.display = "block";
+          this.innerHTML = "Less";
+        }
+      });
+    }
+  </script>
+  <!-- END JavaScript -->
+  <section style="padding: 40px">
+    
+  </section>
+  <div class="to-top"><a href="#">Top</a></div>
+  <footer>
+    <div class="social-icon">
+      <!-- Facebook -->
+      <a href="" target="_blank" class="fa fa-facebook-f fa-lg fa-2x padding-right"></a>
+      <!--Instagram-->
+      <a href="" target="_blank" class="fa fa-instagram fa-lg fa-2x padding-right"></a>
+      <!-- Twitter -->
+      <a href="" target="_blank" class="fa fa-twitter fa-lg fa-2x padding-right"></a>
+      <!-- Pinterest -->
+      <a href="" target="_blank" class="fa fa-pinterest fa-lg fa-2x padding-right"></a>
+      <!-- Linkedin -->
+      <a href="" target="_blank" class="fa fa-linkedin fa-lg fa-2x padding-right"></a>
+      <!-- GitHub -->
+      <a href="" target="_blank" class="fa fa-github-alt fa-lg fa-2x"></a>
+    </div>
+  </footer>
+</body>
+
+</html>
