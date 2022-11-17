@@ -188,6 +188,16 @@ nav ul li a:hover {
   z-index: -1;
 }
 
+.page-four {
+  min-width: 100%;
+  min-height: 100%;
+  
+  width: auto;
+  height: auto;
+  background: #eee url(../images/background.png) no-repeat center;
+  background-size: cover;
+}
+
 
 * {
   box-sizing: border-box;
@@ -198,6 +208,9 @@ nav ul li a:hover {
   float: left;
   padding: 10px;
   font-family: Futura;
+  background: #eee url(../images/background.png) no-repeat center;
+  background-size: cover;
+  z-index: -1;
 }
 
 .left {
@@ -265,6 +278,62 @@ div.contact-info {
   justify-content: center;
 }
 
+/*videos*/
+article {
+  width: 600px;
+  padding: 20px 100px;
+}
+
+.accordion {
+  color: orangered;
+  cursor: pointer;
+  font-size: 15px;
+  padding-bottom: 10px;
+  font-family: Bookmania;
+}
+
+.active,
+.accordion:hover {
+  color: orange;
+}
+
+.panel {
+  display: none;
+  overflow: hidden;
+  font-family: Bookmania;
+}
+
+.titles {
+    font-family: Futura;
+    padding: 20px;
+}
+.column-l {
+  float: left;
+  background: #eee url(../images/background-2.png) no-repeat center;
+  background-size: cover;
+  width: 60%;
+  
+  
+}
+.column-r {
+  float: right;
+  padding: 5em;
+  width: 40%;
+  min-height: 90%;
+  position: fixed;
+  right: 0; /* need to have position set to "fixed" */
+  bottom: 0; /* need to have position set to "fixed" */
+  width: auto;
+  height: auto;
+  background: #eee url(../images/background-2.png) no-repeat center;
+  background-size: cover;
+}
+
+.videos {
+  font-family: Futura;
+  font-size:38pt;
+}
+
 /* style page banner */
 header.food-page {
   background: #eee url(../images/food-02.jpg) no-repeat center; /* top center bottom - 1/3 of the image full height */
@@ -308,7 +377,7 @@ p {
 
 /* Styling anchor link (hyperlink) */
 a {
-  color: #00a2ff;
+  color: black;
   text-decoration: none;
 }
 
@@ -356,13 +425,18 @@ img.size04 {
   padding: 30px;
   display: flex;
   justify-content: center;
+  font-family: Bookmania;
+  color:rgba(255, 94, 0, 0.8);
 }
 
 #greeting {
   color: black;
-  font-family: "Bookmania";
+  font-family: "Futura";
   justify-content: right;
+}
 
+.about {
+  font-family: Bookmania;
 }
 
 
@@ -378,6 +452,7 @@ footer > div.social-icon {
   padding: 30px;
   display: flex;
   justify-content: center;
+  color: black;
 }
 
 @media screen and (max-width: 750px) {
