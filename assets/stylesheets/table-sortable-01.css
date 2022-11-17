@@ -1,7 +1,7 @@
 table#latest-reads-items {
       border-collapse: collapse;
       /* in inspector mode - easier to see the difference between collapse and no collapse */
-      border: 1px solid rgba(154, 154, 154, 0.75);
+      border: 1px solid orangered;
       text-align: center;
     }
 
@@ -28,49 +28,51 @@ table#latest-reads-items {
     table#latest-reads-items thead {
       font-size: 0.7em;
       text-transform: uppercase;
+      font-family: Bookmania;
     }
 
     table#latest-reads-items thead th {
       color: #fff;
-      background-color: rgba(0, 0, 0, 0.6);
+      background-color: orange;
       padding: 8px;
     }
 
     table#latest-reads-items thead th:hover {
       color: #fff;
-      background-color: #339999;
+      background-color: orangered;
       cursor: pointer;
     }
 
     table#latest-reads-items thead th.tablesorter-headerAsc,
     table#latest-reads-items thead th.tablesorter-headerDesc {
-      background-color: rgba(0, 102, 102, 0.8);
+      background-color: orangered;
     }
 
     table#latest-reads-items tbody {
       font-size: 0.9em;
       line-height: 15px;
+      font-family: Bookmania;
     }
 
     /*** make sure table#latest-reads-items tbody tr:nth-child(even) defined before table#latest-reads-items tbody tr:hover */
     /*** otherwise, it would need to define table#latest-reads-items tbody tr:nth-child(even):hover*/
     table#latest-reads-items tbody tr:nth-child(even) {
-      background: rgba(154, 154, 154, 0.25);
+      background: orange;
     }
 
     table#latest-reads-items tbody tr:hover {
       color: #fff;
-      background-color: #339999;
+      background-color: orangered;
     }
 
     table#latest-reads-items tbody td {
       padding: 8px 20px;
-      border-top: 1px solid rgba(154, 154, 154, 0.75);
-      border-right: 1px solid rgba(154, 154, 154, 0.75);
+      border-top: 1px solid orangered;
+      border-right: 1px solid orangered;
     }
 
     table#latest-reads-items tbody td img {
       width: 100px;
       margin: 0 10px 0 0;
-      border: 1px solid rgba(154, 154, 154, 0.75);
+      border: 1px solid orangered;
     }
