@@ -184,16 +184,30 @@ nav ul li a:hover {
   z-index: -1;
 }
 
-.page-four {
+.contact-page {
   min-width: 100%;
   min-height: 100%;
-  
+
   width: auto;
   height: auto;
   background: #eee url(../images/background.png) no-repeat center;
   background-size: cover;
 }
 
+/*page 4 contact*/
+.contact {
+  font-size: 36px;
+  font-family: Bookmania;
+  text-align: center;
+  
+}
+
+div.contact-info {
+  margin: auto;
+  padding: 50px 50px 50px 300px;
+  text-align: left;
+  justify-content: center;
+}
 
 * {
   box-sizing: border-box;
@@ -259,20 +273,7 @@ div.blogs {
   column-span: 1;
 }
 
-/*page 4 contact*/
-.contact {
-  font-size: 36px;
-  font-family: Bookmania;
-  text-align: center;
-  
-}
 
-div.contact-info {
-  margin: auto;
-  padding: 50px 50px 50px 300px;
-  text-align: left;
-  justify-content: center;
-}
 
 /*videos*/
 article {
